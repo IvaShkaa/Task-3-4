@@ -46,7 +46,7 @@ namespace Задание_3_2
         Random rnd = new Random();
         public override bool GetRandomValue()
         {
-            if (rnd.Next(0, 1) == 1)
+            if (rnd.Next(0, 2) == 1)
             {
                 return true;
             }
